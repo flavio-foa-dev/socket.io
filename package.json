@@ -1,0 +1,26 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/socketServer.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavio-foa-dev/socket.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flavio-foa-dev/socket.io/issues"
+  },
+  "homepage": "https://github.com/flavio-foa-dev/socket.io#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
