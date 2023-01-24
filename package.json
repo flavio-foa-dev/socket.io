@@ -21,6 +21,7 @@
   "homepage": "https://github.com/flavio-foa-dev/socket.io#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mongodb": "^4.13.0",
     "socket.io": "^4.5.4"
   }
 }

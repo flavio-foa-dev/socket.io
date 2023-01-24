@@ -25,11 +25,9 @@ io.on("connection", ((socket) => {
     const document = getDocument(nameDocument)
     if (document){
       document.text = text
+      socket.to(nameDocument).emit("textClient", text)
     }
-    socket.to(nameDocument).emit("textClient", text)
   });
-
-
 }))
 
 const getDocument = (title) => {
